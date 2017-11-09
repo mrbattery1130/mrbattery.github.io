@@ -11,7 +11,7 @@ github_repo: "https://github.com/mrbattery1130/mrbattery1130.github.io" # you co
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "sidebar-about-description!"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -94,7 +94,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "知乎·ZnCu电池君",
+        title: "知乎·ZnCu电池君的主页",
         href: "https://www.zhihu.com/people/zncudian-chi-jun"
     },{
         title: "Apple",
