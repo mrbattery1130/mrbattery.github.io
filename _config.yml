@@ -11,7 +11,7 @@ github_repo: "https://github.com/mrbattery1130/mrbattery1130.github.io" # you co
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "sidebar-about-description!"
+sidebar-about-description: "专业二把刀，纯种半瓶醋"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
