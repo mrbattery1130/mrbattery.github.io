@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      安装NeteaseCloudMusicApi到React Native析
+title:      安装NeteaseCloudMusicApi到React Native
 subtitle:   
 date:       2020-11-10
 author:     电池君
-header-img: img/post-bg-miui-ux.jpg
+header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
     - Blog
