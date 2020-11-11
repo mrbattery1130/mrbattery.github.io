@@ -51,9 +51,16 @@ tags:
 2. `React Native`不包含 `nodejs`部分基本库 ，使用`rn-nodeify`添加 `nodejs` 核心模块：
    - 安装`rn-nodeify`：`npm i --save-dev rn-nodeify@latest`
    - 在`package.json`中`script`下添加`"postinstall": "rn-nodeify --install fs,dgram,process,path,console --hack"`
-
-3. 
-
+   - install all shims and run package-specific hacks：`rn-nodeify --install --hack`
+3. 修改main.js引入依赖：
+   ```js
+   import { readdirSync } from 'fs'
+   import { join } from 'path'
+   import request from './util/request'
+   import { cookieToJson } from './util/index'
+   ```
+ 4. 
+ 
 ## 运行RN项目
 
 1. 
