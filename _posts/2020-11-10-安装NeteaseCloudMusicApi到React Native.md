@@ -10,9 +10,7 @@ tags:
     - Blog
 ---
 
-# 安装`NeteaseCloudMusicApi`到`React Native`
-
-## 创建RN工程
+# 创建RN工程
 
 // 1. 使用`WebStorm`新建`React Native`工程；
 
@@ -39,13 +37,13 @@ tags:
    - `cd projectName`
    - ` expo start`
 
-## 移植`NeteaseCloudMusicApi`代码
+# 移植`NeteaseCloudMusicApi`代码
 
 1. 下载`NeteaseCloudMusicApi`代码；
 2. 复制`NeteaseCloudMusicApi-master`根目录下`module`、`module_example`、`plugin`、`test`、`util`、`main.js`到项目根目录；
 3. 复制`NeteaseCloudMusicApi-master`根目录下`package.json`中`dependencies`和`devDependencies`节点下内容到项目根目录下`package.json`中。
 
-## 安装依赖
+# 安装依赖
 
 1. 运行`yarn install`安装`package.json`中的依赖；
 2. `React Native`不包含 `nodejs`部分基本库 ，使用`rn-nodeify`添加 `nodejs` 核心模块；
@@ -68,7 +66,7 @@ tags:
 // 4. 安装`asyncstorage-down`；
 //   - `yarn add asyncstorage-down`
  
-## 运行RN项目
+# 运行RN项目
 
 1. 确保你的设备已经成功连接。可以输入adb devices来查看:
    ```
