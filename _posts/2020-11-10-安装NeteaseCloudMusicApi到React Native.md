@@ -78,12 +78,19 @@ tags:
    ```
    > 如果你连接了多个设备（包含模拟器在内），后续的一些操作可能会失败。拔掉不需要的设备，或者关掉模拟器，确保`adb devices`的输出只有一个是连接状态。
 
-2. 运行react-native run-android来在设备上安装并启动应用了。
-   - 译注：在真机上运行时可能会遇到白屏的情况，请找到并开启悬浮窗权限。
-
 3. 启用开发服务器，可以快速的迭代修改应用，然后在设备上查看结果
    > 大部分现代的安卓设备已经没有了硬件"Menu"按键，这是我们用来调出开发者菜单的。在这种情况下你可以通过摇晃设备来打开开发者菜单(重新加载、调试，等等……)
    > (Android 5.0及以上)使用adb reverse命令
    > 首先把设备通过USB数据线连接到电脑上，并开启USB调试
    - 运行`adb reverse tcp:8081 tcp:8081`
    - 使用`Reload JS`和其它的开发选项
+   
+4.  在项目中在android/app/src/main/创建文件夹assets，项目中执行命令
+   ```
+   react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res 
+   ```
+　> 注意：查看自己项目是否有 index.android.js这个文件，如果有回车执行命令即可，否则会会报错，找不到这个index.android.js文件；把index.android.js改为index.js
+
+
+2. 运行react-native run-android来在设备上安装并启动应用了。
+   - 在真机上运行时可能会遇到白屏的情况，请找到并开启悬浮窗权限。
