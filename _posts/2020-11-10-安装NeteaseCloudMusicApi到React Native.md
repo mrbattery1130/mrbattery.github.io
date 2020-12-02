@@ -7,7 +7,7 @@ author:     电池君
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
-    - Blog
+    - React Native
 ---
 
 # 创建RN工程
