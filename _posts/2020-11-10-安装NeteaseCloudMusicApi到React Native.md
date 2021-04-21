@@ -5,7 +5,7 @@ subtitle:
 date:       2020-11-10
 author:     电池君
 header-img: img/post-bg-re-vs-ng2.jpg
-catalog: true
+catalog: false
 tags:
     - React Native
 ---
@@ -63,9 +63,10 @@ tags:
     let fileModule = requirejs(join(__dirname, 'module', file))
    ```
    
+
 // 4. 安装`asyncstorage-down`；
 //   - `yarn add asyncstorage-down`
- 
+
 # 运行RN项目
 
 1. 确保你的设备已经成功连接。可以输入adb devices来查看:
